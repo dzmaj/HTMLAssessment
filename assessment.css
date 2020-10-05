@@ -4,18 +4,18 @@
 }
 thead th {
   color: green;
-  weight: bold;
-  border: solid 1px;
+  font-weight: bold;
+  /* border: solid 1px; */
   text-align: center;
 }
 tfoot th {
   color: red;
-  weight: bold;
-  border: solid 1px;
+  font-weight: bold;
+  /* border: solid 1px; */
   text-align: center;
 }
 td {
-  border: solid 1px;
+  /* border: solid 1px; */
   text-align: center;
 }
 #scoreBoard {
@@ -44,8 +44,29 @@ ul > li:last-child ul{
   background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/5c/Chicago_Bears_logo.svg");
   background-repeat: no-repeat;
   background-size: contain;
+  opacity: 1.0;
 }
 
 #checkbox-grid {
   list-style-type: none;
 }
+
+/* stretch goals */
+
+#teamRoster li ul li ol li:first-child {
+  font-weight: bold;
+}
+
+#scoreBoard tbody tr:nth-child(2n+0) {
+  background-color: Azure;
+}
+#scoreBoard tbody tr:nth-child(2n+1) {
+  background-color: Beige;
+}
+
+/* #teamRoster > li:last-child ul {
+  opacity: 1.0;
+}
+#teamRoster > li:last-child ul li {
+  opacity: 1.0;
+} */
