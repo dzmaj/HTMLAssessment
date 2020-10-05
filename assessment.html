@@ -1,11 +1,128 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
     <title></title>
   </head>
   <body>
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    <h2>TEXT</h2>
+    <p><strong>Lorem</strong> ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae nisi tellus. Integer finibus euismod commodo. Praesent sit amet sapien faucibus eros sollicitudin venenatis eget ac ipsum. Mauris eget ipsum dignissim eros gravida congue. Vivamus sit amet egestas nunc, eget scelerisque velit. Integer sed tincidunt lorem. Proin non est in diam auctor accumsan. Curabitur efficitur lacus nulla, eu aliquam nibh euismod sit amet. Integer ac fermentum nisi. Suspendisse mollis lacus vitae pulvinar lobortis. Aenean posuere metus ac lobortis convallis. Pellentesque pretium, felis id mollis rutrum, nisi tellus pulvinar tortor, nec porta nulla mi at ipsum. Vestibulum aliquam tristique finibus. Suspendisse varius, tellus vel interdum auctor, magna ipsum tincidunt ante, eu vulputate lectus dui ut metus. Proin ut laoreet ligula.
+    </p>
+    <blockquote>
+      <p><em><strong>Quisque</strong> malesuada porta metus, id pellentesque quam feugiat in. Nunc ultricies malesuada efficitur. Mauris sed magna eros. Cras vel nibh odio. Nullam semper porta vehicula. Duis lorem augue, suscipit eget est nec, porta porta lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</em></p>
+    </blockquote>
+    <p><strong>Phasellus</strong> semper porta egestas. Etiam commodo, arcu eu pulvinar porttitor, quam dolor cursus turpis, eu venenatis turpis tellus vitae urna. Aliquam nec lorem ligula. Cras tristique at arcu id dignissim. Aenean accumsan dui nunc, non consequat lacus facilisis nec. Suspendisse tortor lorem, faucibus non aliquet vel, sagittis condimentum dolor. Nulla vitae volutpat ex. Sed malesuada sit amet est at dapibus. Aliquam at turpis mollis, ultrices eros id, maximus arcu. Vivamus quis turpis eu felis aliquam blandit non et justo. Aliquam aliquam nunc vel lectus accumsan, ac accumsan risus vestibulum. Etiam non sapien volutpat, iaculis mauris eget, volutpat enim. Vestibulum quis dapibus libero.</p>
+    <h2>TABLE</h2>
+    <table>
+      <caption>Scores by Quarter</caption>
+      <thead>
+      <tr>
+        <th scope="col" rowspan="2">Team Name</th>
+        <th scope="col" colspan="2">First Half</th>
+        <th scope="col" colspan="2">Second Half</th>
+        <th scope="col" rowspan="2">Final</th>
+      </tr>
+      <tr>
+        <th scope="col">Q1</th>
+        <th scope="col">Q2</th>
+        <th scope="col">Q3</th>
+        <th scope="col">Q4</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <td>Denver</td>
+        <td>7</td>
+        <td>3</td>
+        <td>0</td>
+        <td>7</td>
+        <td>17</td>
+      </tr>
+      <tr>
+        <td>Chicago</td>
+        <td>3</td>
+        <td>3</td>
+        <td>0</td>
+        <td>7</td>
+        <td>13</td>
+      </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th scope="row">Total</th>
+          <td>10</td>
+          <td>6</td>
+          <td>0</td>
+          <td>14</td>
+          <td>30</td>
+        </tr>
+      </tfoot>
+    </table>
+    <h2>LIST</h2>
+    <ul>
+      <li>
+        <img src="broncos.png" alt="Denver Broncos Logo" height="64">
+        <br>
+        <a href="https://www.denverbroncos.com/">Denver Broncos</a>
+        <ul>
+          <li>Coach: Vic Fangio</li>
+          <li>
+            QB
+            <ol>
+              <li>Blake Bortles</li>
+              <li>Jeff Driskel</li>
+              <li>Drew Lock</li>
+              <li>Brett Rypien</li>
+            </ol>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <img src="bears.png" alt="Chicago Bears Logo" height="64">
+        <br>
+        <a href="https://www.chicagobears.com/">Chicago Bears</a>
+        <ul>
+          <li>Coach: Matt Nagy</li>
+          <li>
+            QB
+            <ol>
+              <li>Tyler Bray</li>
+              <li>Nick Foles</li>
+              <li>Mitchell Trubisky</li>
+            </ol>
+          </li>
+        </ul>
+      </li>
+    </ul>
+
+    <h2>FORM</h2>
+    <form class="" action="index.html" method="post">
+      First: <input type="text" name="firstname">
+      Last: <input type="text" name="lastname">
+      <br>
+      Favorite Sport:
+      <select class="" name="favoritesport">
+        <option value="soccer">soccer</option>
+        <option value="football">football</option>
+        <option value="basketball">basketball</option>
+        <option value="baseball">baseball</option>
+        <option value="hockey">hockey</option>
+      </select>
+      <br>
+      I have:
+      <input type="checkbox" name="experience" value="attended">Attended
+      <input type="checkbox" name="experience" value="played">Played
+      <input type="checkbox" name="experience" value="coached">Coached
+      <input type="checkbox" name="experience" value="bet">Bet on
+      <br>
+      this sport.
+      <br>
+      For this sport I prefer the
+      <input type="radio" name="level" value="amateur">Amateur
+      <input type="radio" name="level" value="college">College
+      <input type="radio" name="level" value="professional">Professional
+      <br>
+      <input type="submit">
+    </form>
   </body>
 </html>
